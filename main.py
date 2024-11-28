@@ -21,7 +21,6 @@ class Example(QMainWindow, Ui_MainWindow):
         self.figure = 'circle'
         self.size = random.randint(10, 100)
         self.color = QColor(255, 255, 0)
-        #self.color = (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255))  # 'yellow'
         self.flag = True
         self.update()
 
